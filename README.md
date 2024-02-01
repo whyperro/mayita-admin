@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Descripción
+Este proyecto es la segunda parte del proyecto ECommerce. Este sería el sistema administrativo de la tienda ECommerce. En este se mantiene maneja todo el contenido a mostrar en la tienda, asi como también llevar conteo de todas las ventas, ganancias e ingresos de la propia tienda.
 
-## Getting Started
+## Características Destacadas
+- Diseño Responsivo y Atractivo
+La tienda ECommerce cuenta con un diseño altamente receptivo, adaptándose de manera elegante a diferentes dispositivos. La estética moderna y atractiva, respaldada por Tailwind CSS y ShadCN, garantiza una experiencia visualmente agradable.
 
-First, run the development server:
+- Gestión Eficiente de Productos
+Administra fácilmente tu catálogo de productos con Prisma y PostgreSQL. Agrega descripciones detalladas, precios, imágenes y organiza tus productos de manera intuitiva para facilitar la búsqueda y compra por parte de los clientes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Carrito de Compras Intuitivo
+Ofrece a los usuarios una experiencia de compra sin complicaciones con un carrito de compras intuitivo. Los clientes pueden agregar productos, revisar su selección y proceder al pago de manera fácil y rápida.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Autenticación Segura
+Implementa una autenticación robusta para proteger la información del usuario durante todo el proceso de compra. Clerk se encarga de la gestión de identidad, garantizando la seguridad y la privacidad de los clientes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Base de Datos Eficiente con Prisma y PostgreSQL
+Prisma sirve como ORM, proporcionando una interfaz fácil de usar para interactuar con una base de datos PostgreSQL eficiente. Esto garantiza una gestión de datos confiable y escalable.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologías 
 
-## Learn More
+- Next.js es un framework de React que facilita la creación de aplicaciones web rápidas y eficientes. Ofrece renderización del lado del servidor, rutas dinámicas y una estructura de proyecto organizada que impulsa el desarrollo de aplicaciones escalables.
 
-To learn more about Next.js, take a look at the following resources:
+- Tailwind CSS es un framework de estilos utilizable y altamente personalizable. Facilita el diseño y desarrollo responsivo al proporcionar clases utilitarias que se aplican directamente al HTML. Esto permite un flujo de trabajo eficiente y un diseño flexible.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ShadCN es una biblioteca que simplifica la creación de componentes. Aporta una capa adicional de estética y profesionalismo al diseño, mejorando la experiencia visual para los usuarios.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Prisma es un ORM (Object-Relational Mapping) que simplifica la interacción con bases de datos. En este proyecto, se utiliza con PostgreSQL como sistema de gestión de bases de datos relacional. Esto garantiza una gestión eficiente y escalable de los datos de la tienda.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clerk es una plataforma de autenticación y gestión de identidad. Se integra para proporcionar una autenticación segura, facilitando el manejo de cuentas de usuario y protegiendo la privacidad de los clientes durante todo el proceso de compra.
